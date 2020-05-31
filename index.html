@@ -17,15 +17,91 @@
   <meta name="theme-color" content="#fafafa">
 </head>
 
-<body>
+<body> <!-- body content-->
   <!--[if IE]>
     <p class="browserupgrade">You are using an <strong>outdated</strong> browser. Please <a href="https://browsehappy.com/">upgrade your browser</a> to improve your experience and security.</p>
   <![endif]-->
 
   <!-- Add your site or application content here -->
-  <p>Hello world! This is HTML5 Boilerplate.</p>
+  <header> <!-- header wrapper -->
+
+    <div class="content-wrapper">
+      <figure> <!-- Logo -->
+        <a href="#"><img src="" alt="unplugged logo"></a>
+      </figure>
+      <div class="header-divider"></div>
+      <nav> <!--navbar-->
+        <ul>
+          <li><a href="faq/index.html" target="_blank">FAQ</a></li>
+          <li><a href="about/index.html" target="_blank">About</a></li>
+        </ul>
+      </nav>
+    </div>
+  </header> <!-- header wrapper ends-->
+
+  <main> <!-- main wrapper -->
+
+    <section class="hero-area">
+      <div class="content-wrapper">
+        <h1>Retreat from the desk, return refreshed.</h1>
+      </div>
+    </section>
+
+    <aside>
+      <!-- aside wrapper -->
+      <div class="content-wrapper">
+        <div class="form-description">
+          <h3>Want to join the next retreat?</h3>
+          <p>
+            Find out when we are holding our next retreat and how your company or team can sign up!           
+          </p>
+        </div>
+        <div class="form">
+          <h3>Find out more</h3>
+          <input type="text" name="name" value="Enter your e-mail">
+          <input type="button" value="Download Itinerary">
+        </div>
+      </div>
+    </aside> <!-- aside wrapper ends-->
+
+  </main> <!-- main wrapper ends -->
+
+  <footer> <!-- footer wrapper -->
+    <div class="content-wrapper">
+      <div class="footer-content">
+        <h4>Contact</h4>
+        <p>
+          555-555-5555<br>
+          jachiu89@gmail.com
+        </p>
+        <div class="social">
+          <h4>Social</h4>
+          <div class="social-icons">
+            <p>
+              <a href="https://www.facebook.com/james.chiu2" target="_blank"></a>
+            </p>
+            <p>
+              <a href="https://codepen.io/jachiu89" target="_blank"></a>
+            </p>
+            <p>
+              <a href="https://www.instagram.com/ja_chiu/" target="_blank"></a>
+            </p>
+            <p>
+              <a href="https://github.com/jachiu89" target="_blank"></a>
+            </p>
+            <!-- other social links here -->
+          </div>
+        </div>
+      </div> <!-- footer content ends -->
+    </div> <!-- footer content-wrapper ends -->
+    <div class="copyright">
+      <p>Copyright 2020 | Unplugged</p>
+    </div>
+  </footer> <!-- footer wrapper ends -->
+
   <script src="js/vendor/modernizr-3.8.0.min.js"></script>
-  <script src="https://code.jquery.com/jquery-3.4.1.min.js" integrity="sha256-CSXorXvZcTkaix6Yvo6HppcZGetbYMGWSFlBw8HfCJo=" crossorigin="anonymous"></script>
+  <script src="https://code.jquery.com/jquery-3.4.1.min.js"
+    integrity="sha256-CSXorXvZcTkaix6Yvo6HppcZGetbYMGWSFlBw8HfCJo=" crossorigin="anonymous"></script>
   <script>window.jQuery || document.write('<script src="js/vendor/jquery-3.4.1.min.js"><\/script>')</script>
   <script src="js/plugins.js"></script>
   <script src="js/main.js"></script>
@@ -33,7 +109,7 @@
   <!-- Google Analytics: change UA-XXXXX-Y to be your site's ID. -->
   <script>
     window.ga = function () { ga.q.push(arguments) }; ga.q = []; ga.l = +new Date;
-    ga('create', 'UA-XXXXX-Y', 'auto'); ga('set','transport','beacon'); ga('send', 'pageview')
+    ga('create', 'UA-XXXXX-Y', 'auto'); ga('set', 'transport', 'beacon'); ga('send', 'pageview')
   </script>
   <script src="https://www.google-analytics.com/analytics.js" async></script>
 </body>
