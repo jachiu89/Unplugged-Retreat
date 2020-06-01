@@ -108,6 +108,7 @@ html {
 body {
   font-family: 'Open Sans', sans-serif;
   font-size: 1em;
+  color: #e2e3ed
 }
 
 ul,
@@ -129,6 +130,7 @@ h3,
 h4 {
   font-family: 'Poppins', sans-serif;
   font-size: 1em;
+  margin: 20px 0;
 }
 
 p {
@@ -232,8 +234,13 @@ footer .copyright {
 .hero-area {
   display: flex;
   justify-content: center;
-  align-items: center;
   flex-flow: row wrap;
+}
+
+.her-area h1 {
+  font-size: 2.25em;
+  font-family: 'Poppins', Arial, Helvetica, sans-serif;
+  line-height: 1.2;
 }
 
 /* Aside */
@@ -243,6 +250,32 @@ aside {
   justify-content: center;
   align-items: center;
   flex-flow: row wrap;
+  background-color: #527158;
+}
+
+aside .form {
+  margin-top: 30px;
+}
+
+input[type=text] {
+  box-sizing: border-box;
+  width: 100%;
+  color: #2a423a;
+  font-style: italic;
+  padding: 1em;
+}
+
+input[type=button] {
+  width: 100%;
+  padding: 20px 0;
+  margin-top: 20px;
+  background-color: #2a423a;
+  font-family: 'Poppins', Arial, Helvetica, sans-serif;
+  font-size: 1.2em;
+  color: #e2e3ed;
+  border: none;
+  text-align: center;
+  text-transform: uppercase;
 }
 
 /* Features */
@@ -250,7 +283,6 @@ aside {
 .features {
   display: flex;
   justify-content: center;
-  align-items: center;
   flex-flow: row wrap;
 }
 
@@ -260,6 +292,7 @@ aside {
 
 .features p {
   margin: 0;
+  text-align: center;
 }
 
 .features article {
@@ -279,12 +312,13 @@ aside {
 .reviews {
   display: flex;
   justify-content: center;
-  align-items: center;
   flex-flow: row wrap;
+  background-color: #2a423a;
 }
 
 .reviews h2 {
   margin-bottom: 40px;
+  line-height: 1;
 }
 
 .reviews h3 {
@@ -299,6 +333,7 @@ aside {
   justify-content: center;
   align-items: center;
   flex-flow: row wrap;
+  background-color: #527158;
 }
 
 .contact-section {
@@ -306,6 +341,7 @@ aside {
   justify-content: center;
   align-items: center;
   flex-flow: row wrap;
+  background-color: #2a423a;
 }
 
 .contact-content {
@@ -319,6 +355,7 @@ aside {
   justify-content: center;
   align-items: center;
   flex-flow: row wrap;
+  background-color: #527158;
 }
 
 .faq .content-wrapper {
@@ -331,10 +368,15 @@ aside {
 
 .faq h2 {
   margin-bottom: 40px;
+  line-height: 1;
 }
 
 .faq-content {
   margin-bottom: 50px;
+}
+
+.faw-content h4 {
+  line-height: 1.333;
 }
 
 /* ==========================================================================
