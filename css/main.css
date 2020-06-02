@@ -331,6 +331,11 @@ input[type=button] {
   flex-flow: row wrap;
 }
 
+.features .fontawesome-icon {
+  font-size: 3.75em;
+  margin-bottom: 40px;
+}
+
 /* Reviews */
 
 .reviews {
@@ -576,6 +581,7 @@ input[type=button] {
     flex-flow: column wrap;
     flex-basis: 50%;
   }
+
   .features .features-item-description {
     width: 62%;
   }
